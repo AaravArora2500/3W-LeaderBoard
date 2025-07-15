@@ -20,7 +20,7 @@ connectDB()
 // Middleware
 app.use(
   cors({
-    origin:"https://3-w-leader-board.vercel.app/",
+    origin:"https://3-w-leader-board.vercel.app",
     credentials: true,
   }),
 )
