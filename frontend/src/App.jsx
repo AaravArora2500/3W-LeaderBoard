@@ -18,6 +18,7 @@ function App() {
   const [lastClaimResult, setLastClaimResult] = useState(null)
   const [error, setError] = useState("")
   const [isInitialLoading, setIsInitialLoading] = useState(true)
+console.log("Using API base:", process.env.REACT_APP_API_URL);
 
   // Fetch users on component mount and set up polling
   useEffect(() => {
