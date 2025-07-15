@@ -20,7 +20,7 @@ connectDB()
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
+    origin:"https://3-w-leader-board.vercel.app/",
     credentials: true,
   }),
 )
